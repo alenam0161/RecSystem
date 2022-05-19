@@ -1,0 +1,5 @@
+# RecSystem
+This packege is using data manipulation, visualisation and NN for better understanding of the popular movielens dataset. It uses it's basic and low resource version, which is easy to change by changing data inside data folder.
+This is the reference of our main packages, that are represented inside[https://towardsdatascience.com/recommender-system-in-python-part-1-preparation-and-analysis-d6bb7939091e].
+
+It uses NN for both text and numeric data, to understand user behaviour for choosing item, in our case movie-rating itteractions. It uses embeddings for strings to convert them to numeric. then uses merge function from tensorflow funcitonality which merges the output layers of numeric and embeddings, and then continues the furter analysis by using dense and convolutional layers, to find better results. This approch is very popular in this dataset, and there are multiple versions in the web. I used my approach here, which i tried few months ago. The rest is clearly explained inside code, and the main script to run is main.py. Also there is test.py which includes the visualisations and data description parts.
